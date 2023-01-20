@@ -1,0 +1,27 @@
+.cont{
+    display : flex;
+    width: 40%;
+    margin: 15% auto;
+    justify-content: space-around;
+    border-radius: 18px;
+}
+.cont,button{
+    background-color: blue;
+  color: white;
+}
+.questions{
+    flex-basis: 40%;
+}
+button{
+    display: block;
+    margin: 20px;
+    width: 100%;
+    border: 5px solid gray;
+    border-radius: 20px;    
+     cursor: pointer;
+}
+
+button:hover{
+    background-color: gray;
+    transition: 0.7s;
+}
